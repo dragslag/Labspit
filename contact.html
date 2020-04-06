@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pictures/favicon.ico" type="image/x-icon" />
+    <title>SpitLab - Contact</title>
+</head>
+<body class="pr">
+    <header class="df color4 jcsb">
+        <div class="logo">
+            <a class=" df" href="index.html"><img class="" src="pictures/Spit_Lab_Logo.jpg" alt=""></a>
+        </div> 
+
+        <nav class="wraprev df aic" >
+            <button><img class="" src="pictures/open-menu.svg" alt=""></button> 
+            <ul class="df wraprev hundred jcsa">
+                
+                <li class="center unmarked   baskervville"><a class="textdec textcolor3" href="index.html"> Home</a></li>
+                <li class=" center unmarked  baskervville"><a class=" textdec textcolor3" href="app.html">App</a></li>
+                <li class="marked pr center  baskervville"><a class=" textdec fw500 textcolor4" href="#">Contact</a></li>
+            </ul> 
+        </nav>        
+    </header>
+    <section class="df jcc container">
+        <div class="sevtohun padding3 hundred backgroundimage1">
+            <form class="contact df wrap column" id="contactform" action="insert.php" method="post">
+                <h1 class="textcolor2 color1 fit padding1 baskervville">Contact us</h1> <br>
+                <p class="textcolor2" >Send a e-mail directly to <br>
+                    <a class=" textcolor4" href="mailto:contact@spitlab.com"> contact@spitlab.co </a> 
+                    <br><br> Or use the form below <br>
+                </p>
+                <div class="alert">Your message has been sent!</div>
+                <label class="textcolor2 margintop1"  for="name">Name</label>
+                <input  class="color2 buttonheight" id="name" type="text" placeholder="Type your full name" name="name">
+
+                <label  class="textcolor2 margintop1"for="email">E-mail</label>
+                <input class="color2 buttonheight" id="email" type="text" placeholder="Type your E-mail adress" name="email">
+
+                <label class="textcolor2 margintop1" for="phone">Phonenumber</label>
+                <input class="color2 buttonheight" id="phone" type="numbers" placeholder="Type your phone number" name="phone">
+
+                <label class="textcolor2 margintop1" for="message">Message</label>
+                <textarea class="color2 padding1 "  id="message" cols="30" rows="10"></textarea name="message">
+
+                <button class="buttonheight textcolor2 roboto maincolor border0 margintop1 fw500 fs15" type="submit">Submit</button>
+
+            </form>
+        </div>    
+    </section>
+    <footer class=" paddingbottom5 hundred df aic">
+        <form class=" join margintop10 jcc df" action="">
+                <input class="" type="text" placeholder="Enter your E-mail here*" name="epost">
+                <button class="buttonheight maincolor roboto textcolor2 fw500 fs15" type="submit"> Join</button>
+        </form>
+        <div class="w240px socialmedia margintop10 df jcsb aife ">
+            <a href="https://www.linkedin.com/company/spit-lab-ab/"><img class="hundred" src="pictures/linkedin.svg" alt=""></a>
+            <a href="https://www.facebook.com/Spit-Lab-AB-2305333186362115/?ref=page_internal"><img class="hundred"src="pictures/facebook.svg" alt=""></a>
+            <a href="https://twitter.com/spitlabab"><img class="hundred"src="pictures/twitter.svg" alt=""></a>
+            <a href="https://www.instagram.com/from_pcos_to_pregnant/"><img class="hundred"src="pictures/instagram.svg" alt=""></a>
+        </div>
+    </footer>
+
+    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+    <script src="main.js" ></script>
+</body>
